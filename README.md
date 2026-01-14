@@ -1,114 +1,113 @@
-# Site de Dieta para Intestino Saudável
+# Diet Site for a Healthy Intestine
 
-## Descrição
-Site completo para auxiliar no cuidado da saúde intestinal, com funcionalidades de edição, cronograma personalizado, lista de alimentos e rotinas diárias.
+## Description
+A comprehensive website designed to assist in intestinal health care, featuring editing capabilities, personalized schedules, food lists, and daily routines.
 
-## Funcionalidades
+## Features
 
-### 🏠 Página Inicial
-- Apresentação do site e suas funcionalidades
-- Cards informativos sobre os benefícios
-- Design responsivo e moderno
+### 🏠 Home Page
+- Introduction to the site and its features  
+- Informative cards about the benefits  
+- Responsive and modern design  
 
-### 🍎 Lista de Alimentos
-- **Alimentos Recomendados**: Organizados por categorias (Frutas, Vegetais, Cereais, Proteínas, Probióticos)
-- **Alimentos a Evitar**: Lista de alimentos que podem prejudicar a saúde intestinal
-- Interface visual com badges coloridos
+### 🍎 Food List
+- **Recommended Foods**: Organized by categories (Fruits, Vegetables, Cereals, Proteins, Probiotics)  
+- **Foods to Avoid**: List of foods that may harm intestinal health  
+- Visual interface with colored badges  
 
-### 📅 Cronograma Editável
-- Cronograma semanal completo (Segunda a Domingo)
-- 4 refeições por dia (Café da Manhã, Almoço, Lanche, Jantar)
-- **Funcionalidade de Edição**: Clique em "Editar" para modificar as refeições
-- **Salvamento Local**: Os dados são salvos automaticamente no navegador
-- Interface intuitiva com campos de texto editáveis
+### 📅 Editable Schedule
+- Complete weekly schedule (Monday to Sunday)  
+- 4 meals per day (Breakfast, Lunch, Snack, Dinner)  
+- **Editing Functionality**: Click "Edit" to modify meals  
+- **Local Saving**: Data is automatically saved in the browser  
+- Intuitive interface with editable text fields  
 
-### ⏰ Rotinas Diárias
-- 8 rotinas essenciais para saúde intestinal
-- **Sistema de Checklist**: Marque as rotinas completadas
-- **Persistência de Dados**: O progresso é salvo automaticamente
-- Feedback visual com texto riscado para itens completados
+### ⏰ Daily Routines
+- 8 essential routines for intestinal health  
+- **Checklist System**: Mark routines as completed  
+- **Data Persistence**: Progress is saved automatically  
+- Visual feedback with strikethrough text for completed items  
 
-### 💡 Dicas e Informações
-- Dicas importantes sobre hidratação, fibras, exercícios e estresse
-- Sinais de melhora na saúde intestinal
-- Informações educativas e práticas
+### 💡 Tips and Information
+- Important tips on hydration, fiber, exercise, and stress  
+- Signs of improvement in intestinal health  
+- Educational and practical information  
 
-## Tecnologias Utilizadas
-- **React 18** - Framework JavaScript
-- **Tailwind CSS** - Estilização
-- **shadcn/ui** - Componentes de interface
-- **Lucide React** - Ícones
-- **Local Storage** - Persistência de dados
-- **Vite** - Build tool
+## Technologies Used
+- **React 18** - JavaScript framework  
+- **Tailwind CSS** - Styling  
+- **shadcn/ui** - UI components  
+- **Lucide React** - Icons  
+- **Local Storage** - Data persistence  
+- **Vite** - Build tool  
 
-## Como Usar
+## How to Use
 
-### Instalação e Execução
+### Installation and Running
 ```bash
-# Navegar para o diretório
+# Navigate to the directory
 cd dieta-intestinal
 
-# Instalar dependências
+# Install dependencies
 npm install
 
-# Executar em modo desenvolvimento
+# Run in development mode
 npm run dev
 
-# Acessar no navegador
+# Access in browser
 http://localhost:5173
 ```
 
-### Funcionalidades Principais
+### Main Features
 
-#### Editando o Cronograma
-1. Acesse a aba "Cronograma"
-2. Clique no botão "Editar"
-3. Preencha os campos de texto com suas refeições
-4. Clique em "Salvar" para persistir as alterações
-5. Use "Cancelar" para descartar mudanças
+#### Editing the Schedule
+1. Go to the "Schedule" tab  
+2. Click the "Edit" button  
+3. Fill in the text fields with your meals  
+4. Click "Save" to persist the changes  
+5. Use "Cancel" to discard changes  
 
-#### Gerenciando Rotinas
-1. Acesse a aba "Rotinas"
-2. Marque as caixas de seleção para rotinas completadas
-3. O progresso é salvo automaticamente
-4. Itens marcados ficam riscados visualmente
+#### Managing Routines
+1. Go to the "Routines" tab  
+2. Check the boxes for completed routines  
+3. Progress is saved automatically  
+4. Checked items are visually struck through  
 
-#### Consultando Alimentos
-1. Acesse a aba "Alimentos"
-2. Consulte a lista de alimentos recomendados por categoria
-3. Verifique os alimentos que devem ser evitados
-4. Use as informações para planejar suas refeições
+#### Checking Foods
+1. Go to the "Foods" tab  
+2. Consult the recommended foods list by category  
+3. Review foods to avoid  
+4. Use the information to plan your meals  
 
-## Características Técnicas
-- **Responsivo**: Funciona em desktop, tablet e mobile
-- **Persistência**: Dados salvos localmente no navegador
-- **Performance**: Carregamento rápido e interface fluida
-- **Acessibilidade**: Interface intuitiva e fácil de usar
-- **Moderno**: Design atual com animações suaves
+## Technical Characteristics
+- **Responsive**: Works on desktop, tablet, and mobile  
+- **Persistence**: Data saved locally in the browser  
+- **Performance**: Fast loading and smooth interface  
+- **Accessibility**: Intuitive and easy-to-use interface  
+- **Modern**: Current design with smooth animations  
 
-## Estrutura do Projeto
+## Project Structure
 ```
 dieta-intestinal/
 ├── src/
-│   ├── components/ui/     # Componentes shadcn/ui
-│   ├── App.jsx           # Componente principal
-│   ├── App.css           # Estilos customizados
-│   └── main.jsx          # Ponto de entrada
-├── public/               # Arquivos estáticos
-├── package.json          # Dependências
-└── README.md            # Esta documentação
+│   ├── components/ui/     # shadcn/ui components
+│   ├── App.jsx           # Main component
+│   ├── App.css           # Custom styles
+│   └── main.jsx          # Entry point
+├── public/               # Static files
+├── package.json          # Dependencies
+└── README.md             # This documentation
 ```
 
-## Benefícios do Site
-- **Organização**: Mantenha suas refeições e rotinas organizadas
-- **Educação**: Aprenda sobre alimentos benéficos para o intestino
-- **Acompanhamento**: Monitore seu progresso diário
-- **Personalização**: Adapte o cronograma às suas necessidades
-- **Conveniência**: Acesse de qualquer dispositivo
+## Site Benefits
+- **Organization**: Keep your meals and routines organized  
+- **Education**: Learn about foods beneficial to the intestine  
+- **Tracking**: Monitor your daily progress  
+- **Personalization**: Customize the schedule to your needs  
+- **Convenience**: Access from any device  
 
-## Suporte
-Para dúvidas sobre saúde intestinal, sempre consulte um profissional de saúde qualificado.
+## Support
+For intestinal health concerns, always consult a qualified healthcare professional.
 
 ---
-© 2025 Dieta para Intestino Saudável
-
+© 2025 Diet for a Healthy Intestine
